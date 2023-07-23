@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(226, 224, 222);
+}
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+}
+h1{
+text-align: center;
+color: rgb(41, 59, 61);
+}
+
+input {
+    width: 20%;
+    height: 4vh;
+    margin-right: 10px;
+}
+
+::placeholder {
+    color: rgb(89, 118, 127);
+    font-size: 20px;
+}
+
+.input-btn {
+    background-color: rgb(161, 232, 229);
+    height: 4vh;
+    width: 8%;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+.input-btn:hover {
+    background-color: rgb(109, 207, 220);
+}
+
+.div-input {
+    display: flex;
+    justify-content: center;
+}
+
+.list-group {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+:checked {
+    text-decoration: line-through;
+}
+
+.completed{
+    color:rgb(131, 127, 127);
+    text-decoration: line-through;
+}
